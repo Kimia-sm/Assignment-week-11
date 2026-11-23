@@ -637,7 +637,7 @@ body {
   gap: 24px;
   padding: 2.5rem 1.5rem;
   background: #211917;
-  color: var(--cream);
+  color: var(--color-text-light);;
 }
 
 .site-footer a:focus-visible {
@@ -661,7 +661,7 @@ body {
 
 .site-footer nav a {
   font-size: 0.875rem;
-  color: var(--cream);
+  color: var(--color-text-light);
   text-decoration: none;
 }
 
@@ -677,6 +677,7 @@ body {
   margin-top: 32px;
   font-size: 0.8125rem;
   text-align: right;
+  color: var(--color-text-light);
 }
 
 
