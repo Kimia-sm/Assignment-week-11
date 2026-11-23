@@ -49,8 +49,20 @@ main {
 
 }
 
-* {
+/* Dark Mode Styles */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-brand: #591E0F;
+    --color-background: #211917;
+    --color-surface: #302522;
+    --color-text: #F0F0F0;
+    --color-text-light: #FFFFFF;
+    --color-accent: #E8B98A;
+    --color-border: #8A7667;
+  }
+}
 
+* {
   box-sizing: border-box;
 }
 
