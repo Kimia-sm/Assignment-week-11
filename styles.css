@@ -4,6 +4,7 @@ main {
 }
 
 :root {
+  color-scheme: light dark;
   /* Color Palette */
   --color-brand: #591E0F;
   --color-background: #EDE2D0;
